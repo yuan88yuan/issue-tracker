@@ -22,6 +22,12 @@ The primary goal of this repository is to maintain a structured and searchable h
 - **sc6f0-dante**: Tracking issues related to the Dante hardware platform, including boot-time hangs and hardware-level recovery mechanisms.
 - **qcap-sdk**: Focusing on the development and integration of the QCAP SDK (C/C++, V4L2, ALSA, FFmpeg, Boost).
 
+## Knowledge Base
+
+In addition to issue tracking, this repository also includes a knowledge base for each project. These knowledge bases serve as a central location for solutions, technical documentation, troubleshooting guides, and frequently asked questions. Each knowledge base article adheres to a structured format to provide clear and actionable information.
+
+For detailed guidelines on the knowledge base structure, naming conventions, and writing standards, please refer to `GEMINI.md`.
+
 ## Operational Workflow
 
 1. **Issue Creation**: New issues are generated using the `ISSUE_TEMPLATE.md` and placed in the appropriate project sub-directory.

@@ -19,3 +19,26 @@ When the user provides a raw issue description, you MUST rewrite it as an expert
 1. **Creation**: If a project directory does not exist, create it using `mkdir -p issues/[project-name]`.
 2. **Implementation**: Use `write_file` for new issues or `replace` for updates.
 3. **Autonomy**: Proactively fill in likely technical suspicions and diagnostic strategies based on the context provided, while marking them as (Optional) or needing verification.
+
+## 4. Knowledge Base Workflow
+
+This project incorporates a knowledge base for each project to store solutions, technical documentation, troubleshooting guides, and FAQs.
+
+### 4.1. Directory Structure
+- **Root**: `issues/`
+- **Project Specific**: `issues/[project-name]/`
+- **Knowledge Base Directory**: `issues/[project-name]/kb/`
+- **Template**: `issues/KB_TEMPLATE.md` (Refer to this for all new knowledge base article structures)
+- **Naming Convention**: `KB-[ID]-[short-kebab-case-description].md` (e.g., `KB-001-common-boot-issues.md`)
+
+### 4.2. Professional Writing Standards for Knowledge Base Articles
+When creating or updating knowledge base articles, you MUST adhere to the following standards:
+- **Tone**: Technical, clear, concise, and informative.
+- **Structure**: Always use the defined `KB_TEMPLATE.md`.
+- **Focus**: Provide actionable information, solutions, explanations, and relevant technical details.
+- **Clarity**: Ensure easy understanding for technical and non-technical audiences where appropriate.
+
+### 4.3. Operational Workflow for Knowledge Base
+1. **Creation**: If a project's knowledge base directory does not exist, create it using `mkdir -p issues/[project-name]/kb/`.
+2. **Implementation**: Use `write_file` for new articles or `replace` for updates.
+3. **Autonomy**: Proactively fill in relevant technical details and step-by-step instructions based on the context provided.
