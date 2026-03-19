@@ -1,0 +1,11 @@
+# Temporary and generated files
+check_packages.py
+generate_all_embeddings.py
+get-pip.py
+.python-version
+main.py
+pyproject.toml
+uv.lock
+
+# Generated embeddings
+issues/**/embeddings/
