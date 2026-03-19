@@ -42,3 +42,18 @@ When creating or updating knowledge base articles, you MUST adhere to the follow
 1. **Creation**: If a project's knowledge base directory does not exist, create it using `mkdir -p issues/[project-name]/kb/`.
 2. **Implementation**: Use `write_file` for new articles or `replace` for updates.
 3. **Autonomy**: Proactively fill in relevant technical details and step-by-step instructions based on the context provided.
+
+## 5. Archiving Workflow
+
+When an issue is resolved and marked with "Status: Closed" within its content, it MUST be archived.
+
+### 5.1. Directory Structure
+- **Archive Directory**: `issues/[project-name]/archive/`
+
+### 5.2. Naming Convention
+- Archived issues MUST be renamed by prepending `CLOSED-` to their original filename (e.g., `ISSUE-001-boot-hang.md` becomes `CLOSED-ISSUE-001-boot-hang.md`).
+
+### 5.3. Operational Workflow
+1. **Identification**: Identify issues with "Status: Closed" in their content.
+2. **Creation**: If the `archive/` directory does not exist for a given project, create it using `mkdir -p issues/[project-name]/archive/`.
+3. **Archiving**: Move the identified issue file to the respective `issues/[project-name]/archive/` directory and rename it according to the naming convention.

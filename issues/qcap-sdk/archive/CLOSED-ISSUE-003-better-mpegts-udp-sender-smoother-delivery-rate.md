@@ -1,10 +1,11 @@
 # ISSUE-003: Better MPEGTS UDP Sender: Smoother Delivery Rate
 
-- **Status**: Open
+- **Status**: Closed
 - **Priority**: High
-- **Assignee**: Unassigned
+- **Assignee**: Luke
 - **Labels**: Bug, Feature
 - **Created**: 2026-03-18
+- **Resolved Date**: 2026-03-19
 
 ---
 
@@ -28,6 +29,7 @@ Users are experiencing inconsistent delivery of MPEG Transport Stream (TS) packe
     *   Introduce explicit pacing (e.g., using `nanosleep` or `select` with timeouts) to regulate send rate.
     *   Evaluate the impact of socket buffer sizes (`SO_SNDBUF`).
 *   **Proposed Solution**: Introduce a token bucket or leaky bucket algorithm for pacing, or integrate with a more robust real-time scheduling mechanism.
+*   **Resolution**: Luke implemented a bitrate smoothing algorithm, generated with the assistance of an AI, which significantly improved the packet delivery rate.
 
 ## Acceptance Criteria
 - [ ] The MPEGTS UDP sender delivers packets with a significantly reduced jitter (e.g., < 2ms standard deviation on inter-packet time for a 10 Mbps stream).
