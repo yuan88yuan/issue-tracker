@@ -2,7 +2,7 @@
 
 - **Status**: Open
 - **Priority**: High
-- **Assignee**: [Unassigned]
+- **Assignee**: Spencer
 - **Labels**: Bug | Performance
 - **Created**: 2026-03-18
 

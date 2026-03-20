@@ -1,6 +1,6 @@
 # ISSUE-006: Add Dante Video Processing Scaler IP
 
-- **Status**: Open
+- **Status**: Closed
 - **Priority**: Medium
 - **Assignee**: Unassigned
 - **Labels**: Feature
