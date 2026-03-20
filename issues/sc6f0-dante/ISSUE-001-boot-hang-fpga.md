@@ -21,12 +21,13 @@ The boot process proceeds through the bootloader but fails during the kernel's h
 4. The system hangs indefinitely at this stage.
 
 ## Technical Analysis (Optional)
-- **Suspected Root Cause**: Potential race condition during FPGA MMIO access, an unhandled interrupt from the FPGA fabric, or a clock/reset synchronization issue between the SoC and the FPGA.
+- **Identified Root Cause**: The system hang is attributed to an issue within the SD controller.
+
 - **Affected Components**: Linux Kernel (early boot), FPGA PCIe/AXI Bridge, Custom FPGA IP Cores.
 - **Diagnostic Strategy**: Utilize JTAG debugging to inspect the PC (Program Counter) at the time of the hang and analyze the FPGA state machine status.
 
 ## Acceptance Criteria
-- [ ] Root cause of the boot hang is identified and documented.
+- [x] Root cause of the boot hang is identified and documented.
 - [ ] System consistently reaches the login prompt over 50 consecutive boot cycles.
 - [ ] FPGA-related drivers handle initialization timeouts gracefully without hanging the kernel.
 
