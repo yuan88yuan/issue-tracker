@@ -1,6 +1,7 @@
 # ISSUE-002: VCU Video Decoder Incompatibility with QCAP SDK (Petalinux 2023.2)
 
-- **Status**: Open
+- **Status**: Closed
+- **Notes**: This issue is being tracked by qcap-sdk/ISSUE-004-vcu-video-decoder-petalinux-2023-2-not-working.md already.
 - **Priority**: High
 - **Assignee**: (Unassigned)
 - **Labels**: Bug

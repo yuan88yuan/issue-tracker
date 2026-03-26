@@ -1,6 +1,6 @@
 # ISSUE-001: Add test to default demuxer (file demuxer)
 
-- **Status**: Open
+- **Status**: Closed
 - **Priority**: Medium
 - **Assignee**: Unassigned
 - **Labels**: Feature, Test
