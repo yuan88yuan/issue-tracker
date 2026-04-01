@@ -1,6 +1,6 @@
 # ISSUE-002: Memory Leakage in Asynchronous Snapshot Implementation
 
-- **Status**: Open
+- **Status**: Closed
 - **Priority**: High
 - **Assignee**: Spencer
 - **Labels**: Bug | Performance
