@@ -1,6 +1,6 @@
 # ISSUE-004: VCU Video Decoder Failure in Petalinux 2023.2
 
-- **Status**: Open
+- **Status**: Closed
 - **Priority**: High
 - **Assignee**: Unassigned
 - **Labels**: Bug

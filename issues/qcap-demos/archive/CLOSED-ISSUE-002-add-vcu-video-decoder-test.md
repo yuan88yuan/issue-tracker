@@ -1,6 +1,6 @@
 # ISSUE-002: Add VCU Video Decoder Test
 
-- **Status**: Open
+- **Status**: Closed
 - **Priority**: High
 - **Assignee**: 
 - **Labels**: Feature | Test
