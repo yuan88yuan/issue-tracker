@@ -1,6 +1,6 @@
 # ISSUE-001: Test the robustness of sc6f0-pro board with new DRAM modules
 
-- **Status**: Open
+- **Status**: Closed
 - **Priority**: High
 - **Assignee**: Unassigned
 - **Labels**: Bug, Hardware
